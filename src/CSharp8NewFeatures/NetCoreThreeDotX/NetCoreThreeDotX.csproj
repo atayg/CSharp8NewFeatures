@@ -11,10 +11,4 @@
 		<PackageReference Include="BenchmarkDotNet.Annotations" Version="0.13.1" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="12UnmanagedCreatedTypes\" />
-	  <Folder Include="13StackallocInNestedExpressions\" />
-	  <Folder Include="14DevelopmentOfInterpolatedWholeStrings\" />
-	</ItemGroup>
-
 </Project>
