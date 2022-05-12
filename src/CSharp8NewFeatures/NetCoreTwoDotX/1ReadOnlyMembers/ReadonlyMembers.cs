@@ -1,4 +1,4 @@
-﻿namespace NetCoreTwoDotX
+﻿namespace NetCoreTwoDotX._1ReadOnlyMembers
 {
     public struct ReadonlyMembers
     {

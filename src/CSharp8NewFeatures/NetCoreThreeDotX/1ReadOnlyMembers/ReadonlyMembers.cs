@@ -1,6 +1,6 @@
 ﻿using BenchmarkDotNet.Attributes;
 
-namespace NetCoreThreeDotX
+namespace NetCoreThreeDotX._1ReadOnlyMembers
 {
     public struct ReadonlyMembers
     {
