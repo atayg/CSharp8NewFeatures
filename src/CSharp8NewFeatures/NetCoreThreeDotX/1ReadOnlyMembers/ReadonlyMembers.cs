@@ -1,4 +1,5 @@
 ﻿using BenchmarkDotNet.Attributes;
+using System;
 
 namespace NetCoreThreeDotX._1ReadOnlyMembers
 {
@@ -15,7 +16,6 @@ namespace NetCoreThreeDotX._1ReadOnlyMembers
         {
             return Number * Number;
         }
-
     }
 
     [MemoryDiagnoser]

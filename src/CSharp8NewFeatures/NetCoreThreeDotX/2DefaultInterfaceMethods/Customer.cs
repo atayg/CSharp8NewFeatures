@@ -17,13 +17,13 @@ namespace NetCoreThreeDotX._2DefaultInterfaceMethods
 
         public IDictionary<DateTime, string> Reminders => throw new NotImplementedException();
 
-        //public decimal ComputeLoyaltyDiscount()
-        //{
-        //    if (PreviousOrders.Any() == false)
-        //        return 0.50m;
-        //    else
-        //        return ICustomer.DefaultLoyaltyDiscount(this);
-        //}
+        public decimal ComputeLoyaltyDiscount()
+        {
+            if (PreviousOrders.Any() == false)
+                return 0.50m;
+            else
+                return ICustomer.DefaultLoyaltyDiscount(this);
+        }
 
     }
 }

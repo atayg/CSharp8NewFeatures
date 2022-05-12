@@ -3,6 +3,7 @@ using NetCoreThreeDotX._11NullCoalescingAssignment;
 using NetCoreTwoDotX._8AsyncronousStreams;
 using System;
 using System.Threading.Tasks;
+using static NetCoreThreeDotX._7NullableReferenceTypes.NullableReferenceTypes;
 
 namespace NetCoreThreeDotX
 {
@@ -87,14 +88,14 @@ namespace NetCoreThreeDotX
             //    Console.WriteLine(item);
             //}
 
-            //Range Declaration
-            //Range phrase = 1..4;            
+            //range declaration
+            Range phrase = 1..4;            
 
 
             // *************** NullCoalescingAssignment Example
-            NullCoalescingAssignment nullCoalescingAssignment = new NullCoalescingAssignment();
-            int b = nullCoalescingAssignment.A ?? -1;
-            Console.WriteLine(b);
+            //NullCoalescingAssignment nullCoalescingAssignment = new NullCoalescingAssignment();
+            //int b = nullCoalescingAssignment.A ?? -1;
+            //Console.WriteLine(b);
 
         }
     }

@@ -2,24 +2,22 @@
 
 namespace NetCoreThreeDotX._6DisposableRefStructs
 {
-    public partial class UsingNotification
+    public class DisposableRefStructs
     {
-        public class DisposableRefStructs
+        void Method()
         {
-            void Method()
-            {
-                using var book = new Book();
+            using var book = new Book();
 
-            }
+        }
 
-            //ref struct Example usage: Span<T>
-            ref struct Book 
+        //ref struct Example usage: Span<T>
+        ref struct Book
+        {
+            public void Dispose()
             {
-                public void Dispose()
-                {
-                    throw new NotImplementedException();
-                }
+                throw new NotImplementedException();
             }
         }
     }
+
 }

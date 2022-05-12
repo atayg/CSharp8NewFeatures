@@ -6,7 +6,7 @@ namespace NetCoreThreeDotX._7NullableReferenceTypes
     public class NullableReferenceTypes
     {
         public class Person
-        {
+        {            
             public Details? Details { get; set; }   
         }
 

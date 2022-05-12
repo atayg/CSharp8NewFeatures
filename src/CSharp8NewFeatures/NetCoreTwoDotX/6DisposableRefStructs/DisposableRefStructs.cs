@@ -8,9 +8,10 @@ namespace NetCoreTwoDotX._6DisposableRefStructs
         {
             public void Dispose()
             {
+                
             }
         }
-
+               
         //Example usage: Span<T>
         //ref struct Book2 : IDisposable
         //{

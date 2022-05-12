@@ -13,7 +13,6 @@ namespace NetCoreThreeDotX._2DefaultInterfaceMethods
         string Name { get; }
         IDictionary<DateTime, string> Reminders { get; }
 
-
         // Version 1:
         //public decimal ComputeLoyaltyDiscount()
         //{
@@ -24,7 +23,6 @@ namespace NetCoreThreeDotX._2DefaultInterfaceMethods
         //    }
         //    return 0;
         //}
-
 
         // Version 2:
         public static void SetLoyaltyThresholds(TimeSpan ago, int minimumOrders = 10, decimal percentageDiscount = 0.10m)

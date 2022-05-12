@@ -17,7 +17,7 @@ namespace NetCoreThreeDotX._11NullCoalescingAssignment
                 A = 51;
             }
 
-            int b = A ??= 35; //Example usage
+            A ??= 35; //Example usage
         }
 
     }
